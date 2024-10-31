@@ -8,7 +8,7 @@ import (
 	"reflect"
 
 	"errors"
-	"github.com/muhlba91/pulumi-proxmoxve/sdk/v6/go/proxmoxve/internal"
+	"github.com/muhlba91/pulumi-proxmoxve/sdk/go/proxmoxve/internal"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 )
 
@@ -58,6 +58,12 @@ func NewVirtualMachine2(ctx *pulumi.Context,
 		return nil, errors.New("invalid value for required argument 'NodeName'")
 	}
 	aliases := pulumi.Aliases([]pulumi.Alias{
+		{
+			Type: pulumi.String("proxmoxve:Index/vm2:Vm2"),
+		},
+		{
+			Type: pulumi.String("proxmoxve:VM/vm2:Vm2"),
+		},
 		{
 			Type: pulumi.String("proxmoxve:index/vm2:Vm2"),
 		},

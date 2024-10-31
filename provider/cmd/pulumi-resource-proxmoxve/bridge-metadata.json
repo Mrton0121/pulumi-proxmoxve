@@ -2,20 +2,16 @@
     "auto-aliasing": {
         "resources": {
             "proxmox_virtual_environment_acl": {
-                "current": "proxmoxve:index/acl:Acl",
-                "majorVersion": 6
+                "current": "proxmoxve:index/acl:Acl"
             },
             "proxmox_virtual_environment_acme_account": {
-                "current": "proxmoxve:index/acmeAccount:AcmeAccount",
-                "majorVersion": 6
+                "current": "proxmoxve:index/acmeAccount:AcmeAccount"
             },
             "proxmox_virtual_environment_acme_dns_plugin": {
-                "current": "proxmoxve:index/acmeDnsPlugin:AcmeDnsPlugin",
-                "majorVersion": 6
+                "current": "proxmoxve:index/acmeDnsPlugin:AcmeDnsPlugin"
             },
             "proxmox_virtual_environment_apt_repository": {
                 "current": "proxmoxve:Apt/repository:Repository",
-                "majorVersion": 6,
                 "fields": {
                     "components": {
                         "maxItemsOne": false
@@ -32,12 +28,10 @@
                 }
             },
             "proxmox_virtual_environment_apt_standard_repository": {
-                "current": "proxmoxve:Apt/standard/repository:Repository",
-                "majorVersion": 6
+                "current": "proxmoxve:Apt/standard/repository:Repository"
             },
             "proxmox_virtual_environment_certificate": {
                 "current": "proxmoxve:index/certifi:Certifi",
-                "majorVersion": 6,
                 "fields": {
                     "subject_alternative_names": {
                         "maxItemsOne": false
@@ -46,7 +40,6 @@
             },
             "proxmox_virtual_environment_cluster_firewall": {
                 "current": "proxmoxve:Network/firewall:Firewall",
-                "majorVersion": 6,
                 "fields": {
                     "log_ratelimit": {
                         "maxItemsOne": true
@@ -55,7 +48,6 @@
             },
             "proxmox_virtual_environment_cluster_firewall_security_group": {
                 "current": "proxmoxve:Network/firewallSecurityGroup:FirewallSecurityGroup",
-                "majorVersion": 6,
                 "fields": {
                     "rule": {
                         "maxItemsOne": false
@@ -63,12 +55,10 @@
                 }
             },
             "proxmox_virtual_environment_cluster_options": {
-                "current": "proxmoxve:Cluster/options:Options",
-                "majorVersion": 6
+                "current": "proxmoxve:Cluster/options:Options"
             },
             "proxmox_virtual_environment_container": {
                 "current": "proxmoxve:CT/container:Container",
-                "majorVersion": 6,
                 "fields": {
                     "clone": {
                         "maxItemsOne": true
@@ -161,7 +151,6 @@
             },
             "proxmox_virtual_environment_dns": {
                 "current": "proxmoxve:index/dNS:DNS",
-                "majorVersion": 6,
                 "fields": {
                     "servers": {
                         "maxItemsOne": false
@@ -169,12 +158,10 @@
                 }
             },
             "proxmox_virtual_environment_download_file": {
-                "current": "proxmoxve:Download/file:File",
-                "majorVersion": 6
+                "current": "proxmoxve:Download/file:File"
             },
             "proxmox_virtual_environment_file": {
                 "current": "proxmoxve:Storage/file:File",
-                "majorVersion": 6,
                 "fields": {
                     "source_file": {
                         "maxItemsOne": true
@@ -185,12 +172,10 @@
                 }
             },
             "proxmox_virtual_environment_firewall_alias": {
-                "current": "proxmoxve:Network/firewallAlias:FirewallAlias",
-                "majorVersion": 6
+                "current": "proxmoxve:Network/firewallAlias:FirewallAlias"
             },
             "proxmox_virtual_environment_firewall_ipset": {
                 "current": "proxmoxve:Network/firewallIPSet:FirewallIPSet",
-                "majorVersion": 6,
                 "fields": {
                     "cidr": {
                         "maxItemsOne": false
@@ -198,12 +183,10 @@
                 }
             },
             "proxmox_virtual_environment_firewall_options": {
-                "current": "proxmoxve:Network/firewallOptions:FirewallOptions",
-                "majorVersion": 6
+                "current": "proxmoxve:Network/firewallOptions:FirewallOptions"
             },
             "proxmox_virtual_environment_firewall_rules": {
                 "current": "proxmoxve:Network/firewallRules:FirewallRules",
-                "majorVersion": 6,
                 "fields": {
                     "rule": {
                         "maxItemsOne": false
@@ -212,7 +195,6 @@
             },
             "proxmox_virtual_environment_group": {
                 "current": "proxmoxve:Permission/group:Group",
-                "majorVersion": 6,
                 "fields": {
                     "acl": {
                         "maxItemsOne": false
@@ -223,12 +205,10 @@
                 }
             },
             "proxmox_virtual_environment_hagroup": {
-                "current": "proxmoxve:HA/hAGroup:HAGroup",
-                "majorVersion": 6
+                "current": "proxmoxve:HA/hAGroup:HAGroup"
             },
             "proxmox_virtual_environment_hardware_mapping_pci": {
                 "current": "proxmoxve:Hardware/mapping/pci:Pci",
-                "majorVersion": 6,
                 "fields": {
                     "map": {
                         "maxItemsOne": false
@@ -237,7 +217,6 @@
             },
             "proxmox_virtual_environment_hardware_mapping_usb": {
                 "current": "proxmoxve:Hardware/mapping/usb:Usb",
-                "majorVersion": 6,
                 "fields": {
                     "map": {
                         "maxItemsOne": false
@@ -245,12 +224,10 @@
                 }
             },
             "proxmox_virtual_environment_haresource": {
-                "current": "proxmoxve:HA/hAResource:HAResource",
-                "majorVersion": 6
+                "current": "proxmoxve:HA/hAResource:HAResource"
             },
             "proxmox_virtual_environment_hosts": {
                 "current": "proxmoxve:index/hosts:Hosts",
-                "majorVersion": 6,
                 "fields": {
                     "addresses": {
                         "maxItemsOne": false
@@ -285,7 +262,6 @@
             },
             "proxmox_virtual_environment_network_linux_bridge": {
                 "current": "proxmoxve:Network/networkBridge:NetworkBridge",
-                "majorVersion": 6,
                 "fields": {
                     "ports": {
                         "maxItemsOne": false
@@ -293,12 +269,10 @@
                 }
             },
             "proxmox_virtual_environment_network_linux_vlan": {
-                "current": "proxmoxve:Network/networkVlan:NetworkVlan",
-                "majorVersion": 6
+                "current": "proxmoxve:Network/networkVlan:NetworkVlan"
             },
             "proxmox_virtual_environment_pool": {
                 "current": "proxmoxve:Permission/pool:Pool",
-                "majorVersion": 6,
                 "fields": {
                     "members": {
                         "maxItemsOne": false
@@ -307,7 +281,6 @@
             },
             "proxmox_virtual_environment_role": {
                 "current": "proxmoxve:Permission/role:Role",
-                "majorVersion": 6,
                 "fields": {
                     "privileges": {
                         "maxItemsOne": false
@@ -315,12 +288,10 @@
                 }
             },
             "proxmox_virtual_environment_time": {
-                "current": "proxmoxve:index/time:Time",
-                "majorVersion": 6
+                "current": "proxmoxve:index/time:Time"
             },
             "proxmox_virtual_environment_user": {
                 "current": "proxmoxve:Permission/user:User",
-                "majorVersion": 6,
                 "fields": {
                     "acl": {
                         "maxItemsOne": false
@@ -331,12 +302,10 @@
                 }
             },
             "proxmox_virtual_environment_user_token": {
-                "current": "proxmoxve:User/token:Token",
-                "majorVersion": 6
+                "current": "proxmoxve:User/token:Token"
             },
             "proxmox_virtual_environment_vm": {
                 "current": "proxmoxve:VM/virtualMachine:VirtualMachine",
-                "majorVersion": 6,
                 "fields": {
                     "agent": {
                         "maxItemsOne": true
@@ -494,7 +463,6 @@
                         "majorVersion": 6
                     }
                 ],
-                "majorVersion": 6,
                 "fields": {
                     "cpu": {
                         "fields": {
@@ -512,7 +480,6 @@
         "datasources": {
             "proxmox_virtual_environment_acme_account": {
                 "current": "proxmoxve:Acme/getAccount:getAccount",
-                "majorVersion": 6,
                 "fields": {
                     "account": {
                         "fields": {
@@ -525,7 +492,6 @@
             },
             "proxmox_virtual_environment_acme_accounts": {
                 "current": "proxmoxve:Acme/getAccounts:getAccounts",
-                "majorVersion": 6,
                 "fields": {
                     "accounts": {
                         "maxItemsOne": false
@@ -533,12 +499,10 @@
                 }
             },
             "proxmox_virtual_environment_acme_plugin": {
-                "current": "proxmoxve:Acme/getPlugin:getPlugin",
-                "majorVersion": 6
+                "current": "proxmoxve:Acme/getPlugin:getPlugin"
             },
             "proxmox_virtual_environment_acme_plugins": {
                 "current": "proxmoxve:Acme/getPlugins:getPlugins",
-                "majorVersion": 6,
                 "fields": {
                     "plugins": {
                         "maxItemsOne": false
@@ -547,7 +511,6 @@
             },
             "proxmox_virtual_environment_apt_repository": {
                 "current": "proxmoxve:Apt/getRepository:getRepository",
-                "majorVersion": 6,
                 "fields": {
                     "components": {
                         "maxItemsOne": false
@@ -564,12 +527,10 @@
                 }
             },
             "proxmox_virtual_environment_apt_standard_repository": {
-                "current": "proxmoxve:Apt/standard/getRepository:getRepository",
-                "majorVersion": 6
+                "current": "proxmoxve:Apt/standard/getRepository:getRepository"
             },
             "proxmox_virtual_environment_datastores": {
                 "current": "proxmoxve:Storage/getDatastores:getDatastores",
-                "majorVersion": 6,
                 "fields": {
                     "active": {
                         "maxItemsOne": false
@@ -605,7 +566,6 @@
             },
             "proxmox_virtual_environment_dns": {
                 "current": "proxmoxve:Network/getDNS:getDNS",
-                "majorVersion": 6,
                 "fields": {
                     "servers": {
                         "maxItemsOne": false
@@ -614,7 +574,6 @@
             },
             "proxmox_virtual_environment_group": {
                 "current": "proxmoxve:Permission/getGroup:getGroup",
-                "majorVersion": 6,
                 "fields": {
                     "acl": {
                         "maxItemsOne": false
@@ -626,7 +585,6 @@
             },
             "proxmox_virtual_environment_groups": {
                 "current": "proxmoxve:Permission/getGroups:getGroups",
-                "majorVersion": 6,
                 "fields": {
                     "comments": {
                         "maxItemsOne": false
@@ -637,12 +595,10 @@
                 }
             },
             "proxmox_virtual_environment_hagroup": {
-                "current": "proxmoxve:HA/getHAGroup:getHAGroup",
-                "majorVersion": 6
+                "current": "proxmoxve:HA/getHAGroup:getHAGroup"
             },
             "proxmox_virtual_environment_hagroups": {
                 "current": "proxmoxve:HA/getHAGroups:getHAGroups",
-                "majorVersion": 6,
                 "fields": {
                     "group_ids": {
                         "maxItemsOne": false
@@ -651,7 +607,6 @@
             },
             "proxmox_virtual_environment_hardware_mapping_pci": {
                 "current": "proxmoxve:Hardware/mapping/getPci:getPci",
-                "majorVersion": 6,
                 "fields": {
                     "map": {
                         "maxItemsOne": false
@@ -660,7 +615,6 @@
             },
             "proxmox_virtual_environment_hardware_mapping_usb": {
                 "current": "proxmoxve:Hardware/mapping/getUsb:getUsb",
-                "majorVersion": 6,
                 "fields": {
                     "map": {
                         "maxItemsOne": false
@@ -669,7 +623,6 @@
             },
             "proxmox_virtual_environment_hardware_mappings": {
                 "current": "proxmoxve:Hardware/getMappings:getMappings",
-                "majorVersion": 6,
                 "fields": {
                     "checks": {
                         "maxItemsOne": false
@@ -680,12 +633,10 @@
                 }
             },
             "proxmox_virtual_environment_haresource": {
-                "current": "proxmoxve:HA/getHAResource:getHAResource",
-                "majorVersion": 6
+                "current": "proxmoxve:HA/getHAResource:getHAResource"
             },
             "proxmox_virtual_environment_haresources": {
                 "current": "proxmoxve:HA/getHAResources:getHAResources",
-                "majorVersion": 6,
                 "fields": {
                     "resource_ids": {
                         "maxItemsOne": false
@@ -694,7 +645,6 @@
             },
             "proxmox_virtual_environment_hosts": {
                 "current": "proxmoxve:Network/getHosts:getHosts",
-                "majorVersion": 6,
                 "fields": {
                     "addresses": {
                         "maxItemsOne": false
@@ -718,12 +668,10 @@
                 }
             },
             "proxmox_virtual_environment_node": {
-                "current": "proxmoxve:index/getNode:getNode",
-                "majorVersion": 6
+                "current": "proxmoxve:index/getNode:getNode"
             },
             "proxmox_virtual_environment_nodes": {
                 "current": "proxmoxve:Cluster/getNodes:getNodes",
-                "majorVersion": 6,
                 "fields": {
                     "cpu_count": {
                         "maxItemsOne": false
@@ -756,7 +704,6 @@
             },
             "proxmox_virtual_environment_pool": {
                 "current": "proxmoxve:Permission/getPool:getPool",
-                "majorVersion": 6,
                 "fields": {
                     "members": {
                         "maxItemsOne": false
@@ -765,7 +712,6 @@
             },
             "proxmox_virtual_environment_pools": {
                 "current": "proxmoxve:Permission/getPools:getPools",
-                "majorVersion": 6,
                 "fields": {
                     "pool_ids": {
                         "maxItemsOne": false
@@ -774,7 +720,6 @@
             },
             "proxmox_virtual_environment_role": {
                 "current": "proxmoxve:Permission/getRole:getRole",
-                "majorVersion": 6,
                 "fields": {
                     "privileges": {
                         "maxItemsOne": false
@@ -783,7 +728,6 @@
             },
             "proxmox_virtual_environment_roles": {
                 "current": "proxmoxve:Permission/getRoles:getRoles",
-                "majorVersion": 6,
                 "fields": {
                     "privileges": {
                         "maxItemsOne": false,
@@ -800,12 +744,10 @@
                 }
             },
             "proxmox_virtual_environment_time": {
-                "current": "proxmoxve:Network/getTime:getTime",
-                "majorVersion": 6
+                "current": "proxmoxve:Network/getTime:getTime"
             },
             "proxmox_virtual_environment_user": {
                 "current": "proxmoxve:Permission/getUser:getUser",
-                "majorVersion": 6,
                 "fields": {
                     "acl": {
                         "maxItemsOne": false
@@ -817,7 +759,6 @@
             },
             "proxmox_virtual_environment_users": {
                 "current": "proxmoxve:Permission/getUsers:getUsers",
-                "majorVersion": 6,
                 "fields": {
                     "comments": {
                         "maxItemsOne": false
@@ -852,12 +793,10 @@
                 }
             },
             "proxmox_virtual_environment_version": {
-                "current": "proxmoxve:Network/getVersion:getVersion",
-                "majorVersion": 6
+                "current": "proxmoxve:Network/getVersion:getVersion"
             },
             "proxmox_virtual_environment_vm": {
                 "current": "proxmoxve:VM/getVirtualMachine:getVirtualMachine",
-                "majorVersion": 6,
                 "fields": {
                     "tags": {
                         "maxItemsOne": false
@@ -866,7 +805,6 @@
             },
             "proxmox_virtual_environment_vm2": {
                 "current": "proxmoxve:index/getVm2:getVm2",
-                "majorVersion": 6,
                 "fields": {
                     "cpu": {
                         "fields": {
@@ -882,7 +820,6 @@
             },
             "proxmox_virtual_environment_vms": {
                 "current": "proxmoxve:VM/getVirtualMachines:getVirtualMachines",
-                "majorVersion": 6,
                 "fields": {
                     "filter": {
                         "maxItemsOne": false,
@@ -914,7 +851,7 @@
     "auto-settings": {
         "resources": {
             "proxmox_virtual_environment_vm2": {
-                "aliases": [
+                "renames": [
                     "proxmoxve:Index/vm2:Vm2",
                     "proxmoxve:VM/vm2:Vm2",
                     "proxmoxve:index/vm2:Vm2"
@@ -955,8 +892,7 @@
             "proxmoxve:index/certifi:Certifi": 0,
             "proxmoxve:index/dNS:DNS": 0,
             "proxmoxve:index/hosts:Hosts": 0,
-            "proxmoxve:index/time:Time": 0,
-            "proxmoxve:index/vm2:Vm2": 1
+            "proxmoxve:index/time:Time": 0
         },
         "functions": {
             "proxmoxve:Acme/getAccount:getAccount": 1,

@@ -8,7 +8,7 @@ import (
 	"reflect"
 
 	"errors"
-	"github.com/muhlba91/pulumi-proxmoxve/sdk/v6/go/proxmoxve/internal"
+	"github.com/muhlba91/pulumi-proxmoxve/sdk/go/proxmoxve/internal"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 )
 
@@ -21,7 +21,7 @@ import (
 //
 // import (
 //
-//	"github.com/muhlba91/pulumi-proxmoxve/sdk/v6/go/proxmoxve/Permission"
+//	"github.com/muhlba91/pulumi-proxmoxve/sdk/go/proxmoxve/Permission"
 //	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 //
 // )

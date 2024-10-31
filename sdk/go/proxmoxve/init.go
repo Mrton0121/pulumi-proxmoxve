@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	"github.com/blang/semver"
-	"github.com/muhlba91/pulumi-proxmoxve/sdk/v6/go/proxmoxve/internal"
+	"github.com/muhlba91/pulumi-proxmoxve/sdk/go/proxmoxve/internal"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 )
 
@@ -35,8 +35,6 @@ func (m *module) Construct(ctx *pulumi.Context, name, typ, urn string) (r pulumi
 		r = &Hosts{}
 	case "proxmoxve:index/time:Time":
 		r = &Time{}
-	case "proxmoxve:index/vm2:Vm2":
-		r = &Vm2{}
 	default:
 		return nil, fmt.Errorf("unknown resource type: %s", typ)
 	}
@@ -101,11 +99,6 @@ func init() {
 	pulumi.RegisterResourceModule(
 		"proxmoxve",
 		"index/time",
-		&module{version},
-	)
-	pulumi.RegisterResourceModule(
-		"proxmoxve",
-		"index/vm2",
 		&module{version},
 	)
 	pulumi.RegisterResourcePackage(

@@ -2,7 +2,7 @@
 // Feature list: https://containers.dev/features
 {
 	"name": "Go",
-	"image": "mcr.microsoft.com/devcontainers/go:1-1.21-bookworm",
+	"image": "mcr.microsoft.com/devcontainers/go:1-1.23-bookworm",
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/cz-cli:1": {
 			"version": "latest"
