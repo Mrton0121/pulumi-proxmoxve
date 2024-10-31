@@ -9,6 +9,9 @@
 * prepare for upstream release v0.66.3 ([a152033](https://github.com/muhlba91/pulumi-proxmoxve/commit/a1520330b40e0a65abddc661971021c39666991c))
 
 
+
+
+
 ### Miscellaneous Chores
 
 * **deps:** update anchore/sbom-action action to v0.17.4 ([90dbcb0](https://github.com/muhlba91/pulumi-proxmoxve/commit/90dbcb086fd265a3a90f980ea0029f712ae95e39))
