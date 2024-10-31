@@ -4,6 +4,8 @@ go 1.23.0
 
 replace github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 v2.0.0-20240520223432-0c0bf0d65f10
 
+replace github.com/bpg/terraform-provider-proxmox => github.com/Mrton0121/terraform-provider-proxmox v0.66.4-0.20241031113324-398595938e07
+
 require (
 	github.com/bpg/terraform-provider-proxmox v0.66.3
 	github.com/ettle/strcase v0.2.0
